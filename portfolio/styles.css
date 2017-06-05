@@ -1,0 +1,340 @@
+/*****************
+Featured Project
+*****************/
+
+p {
+  font-size: 1em;
+}
+nav {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin-right: 10%;
+}
+nav ul li {
+  display: inline;
+}
+
+#featured-project {
+    background-color: #EDEDED;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#center-nav {
+  position: absolute;
+  top: 70%;
+  left: 24%;
+}
+#center-nav ul {
+  list-style-type: none;
+}
+#center-nav ul li {
+  display: inline;
+  float: left;
+  margin-right: 3px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  font-size: 1em;
+  padding: .3%;
+}
+
+/********
+link1
+********/
+a.link1:hover {
+  color: #E02075;
+}
+a.link1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #E02075;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a.link1:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*******
+link2
+*******/
+
+a.link2:hover {
+  color: #76DBFD;
+}
+a.link2:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #76DBFD;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a.link2:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/*******
+link 3
+*******/
+
+a.link3:hover {
+  color: #86D966;
+}
+a.link3:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #86D966;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a.link3:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+a.linkmail:hover {
+  color: #C4C029;
+}
+a.linkmail:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #C4C029;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+a.linkmail:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.opening {
+  background-color: #EDEDED;
+  height: 100%;
+  width:100%;
+  position: absolute;
+
+}
+.opening img {
+  position: relative;
+  /*width: 90%;*/
+}
+.aboutimg {
+  width: 15%;
+  top: 130%;
+  position: absolute;
+  left: 42.5%;
+  z-index: 11;
+}
+
+/*********************
+MOBILE DROPDOWN MENU
+*********************/
+
+.mobile-icon {
+    width: 45px;
+    height: 10px;
+    background-color: #EDEDED;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+#dropbtn {
+  margin-left: 6%;
+  margin-top: 6%;
+}
+
+/*********
+ABOUT
+********/
+
+.box {
+  margin: 0 20%;
+  background-color: #EDEDED;
+}
+.seconda {
+  background-color: #84C49A;
+  height: 100%;
+  width:50%;
+  top: 200%;
+  left: 0;
+  position: absolute;
+}
+.seconda img {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+
+}
+.secondb {
+  background-color: #EDEDED;
+  height: 100%;
+  width:50%;
+  top: 200%;
+  right: 0;
+  left: 50%;
+  position: absolute;
+  overflow: scroll;
+
+}
+/**********
+Portfolio
+**********/
+
+.thirda {
+  background-color: #F8A69E;
+  height: 100%;
+  width:50%;
+  top: 300%;
+  left: 0;
+  position: absolute;
+}
+.aimages {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+
+}
+.thirdb {
+  background-color: #EDEDED;
+  height: 100%;
+  width:50%;
+  top: 300%;
+  right: 0;
+  left: 50%;
+  position: absolute;
+  overflow: scroll;
+}
+
+/**********
+CONTACT
+**********/
+
+.contacta {
+  background-color: #C4C029;
+  height: 100%;
+  width:50%;
+  top: 400%;
+  left: 0;
+  position: absolute;
+}
+
+.contactb {
+  background-color: #EDEDED;
+  height: 100%;
+  width:50%;
+  top: 400%;
+  left: 50%;
+  position: absolute;
+}
+
+
+/******************
+MEDIA QUERIES
+******************/
+
+@media screen and (max-width: 700px) {
+  .aboutimg {visibility: hidden;}
+}
+@media screen and (max-width: 700px) {
+  .seconda {
+    width: 100%;
+    top: 200%;
+  }
+  .secondb {
+    width: 100%;
+    top: 300%;
+    left: 0;
+  }
+  .thirda {
+    width: 100%;
+    top: 400%;
+  }
+  .thirdb {
+    width: 100%;
+    top: 500%;
+    left: 0;
+  }
+  .contacta {
+    width: 100%;
+    top: 600%;
+
+  }
+  .contactb {
+    width: 100%;
+    top: 700%;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  nav {left: 35%;}
+}
+
+@media screen and (max-width: 900px) {
+  nav {left: 23%;}
+}
+@media screen and (max-width: 800px) {
+  nav {left: 15%;}
+}
+@media screen and (max-width: 600px) {
+  nav {left: 10%;}
+}
+@media  screen and (max-width: 500px) {
+  nav {left: 0%;}
+}
+@media screen and (max-height: 800px) {
+  nav {top: 3%;}
+}
+@media screen and (min-height: 900px) {
+  nav {top: 23%;}
+}
