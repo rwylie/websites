@@ -1,0 +1,190 @@
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    font-size: 1em;
+  }
+  li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3em;
+    margin-right: .4%;
+    margin-left: .4%;
+  }
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  nav ul li {
+    display: inline;
+  }
+
+
+  /********
+  link1
+  ********/
+  a.link1:hover {
+    color: #E02075;
+  }
+  a.link1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E02075;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  a.link1:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  /*******
+  link2
+  *******/
+
+  a.link2:hover {
+    color: #76DBFD;
+  }
+  a.link2:before {
+    content: "";
+    /*position: absolute;*/
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #76DBFD;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  a.link2:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  /*******
+  link 3
+  *******/
+
+  a.link3:hover {
+    color: #86D966;
+  }
+  a.link3:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #86D966;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  a.link3:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  a.linkmail:hover {
+    color: #C4C029;
+  }
+  a.linkmail:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #C4C029;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  a.linkmail:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  /*********
+  NAV PAGE
+  *********/
+
+  #row1 {
+    height: calc(100vh - 2px);
+    text-align: center;
+    background-color: #EDEDED;
+  }
+
+  /*******
+  ABOUT
+  *******/
+  #row2 {
+    display: flex;
+  }
+  #row2 > div:first-child {
+    position: sticky;
+    top: 0;
+    height: calc(100vh - 2px);
+    background-color: #84C49A;
+  }
+  .row-img {
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #row2 > div {
+    width: 50%;
+    background-color: #EDEDED;
+  }
+
+  .about-content {
+    margin: 10%;
+  }
+  /**********
+  Portfolio
+  **********/
+
+
+
+  /**********
+  Contact
+  **********/
+
+
+  /**************
+  Media Queries
+  **************/
+
+  @media (max-width: 700px) {
+    #row2 {
+      flex-wrap: wrap;
+    }
+
+    #row2 > div {
+      width: 100%;
+    }
+
+    #row2 > div:first-child {
+      height: 300px;
+      position: static;
+    }
+  }

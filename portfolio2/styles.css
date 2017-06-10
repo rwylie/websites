@@ -154,6 +154,7 @@ a.linkmail:hover:before {
 body {
   margin: 0;
   padding: 0;
+  background-color: #EDEDED;
 }
 
 
@@ -196,18 +197,15 @@ MOBILE DROPDOWN MENU
 /*********
 ABOUT
 ********/
-
-.box {
-  margin: 0 20%;
-  background-color: #EDEDED;
+#row3 {
+  display: flex;
 }
+
 .seconda {
   background-color: #84C49A;
-  height: 100%;
   width:50%;
+  position: sticky;
   top: 200%;
-  left: 0;
-  position: absolute;
 }
 .seconda img {
   position: absolute;
@@ -217,13 +215,9 @@ ABOUT
 }
 .secondb {
   background-color: #EDEDED;
-  height: 100%;
   width:50%;
   top: 200%;
-  right: 0;
-  left: 50%;
-  position: absolute;
-  overflow: scroll;
+
 
 }
 /**********
@@ -286,7 +280,12 @@ MEDIA QUERIES
   .aboutimg {visibility: hidden;}
 }
 @media screen and (max-width: 700px) {
+  .box {
+    margin: 10px;
+    background-color: #EDEDED;
+  }
   .seconda {
+
     width: 100%;
     top: 200%;
   }
@@ -294,24 +293,26 @@ MEDIA QUERIES
     width: 100%;
     top: 300%;
     left: 0;
+    height: auto;
+
   }
   .thirda {
     width: 100%;
-    top: 400%;
+    top: 500%;
   }
   .thirdb {
     width: 100%;
-    top: 500%;
+    top: 600%;
     left: 0;
   }
   .contacta {
     width: 100%;
-    top: 600%;
+    top: 700%;
 
   }
   .contactb {
     width: 100%;
-    top: 700%;
+    top: 800%;
     left: 0;
   }
 }
